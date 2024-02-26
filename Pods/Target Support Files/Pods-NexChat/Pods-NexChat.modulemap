@@ -1,0 +1,6 @@
+framework module Pods_NexChat {
+  umbrella header "Pods-NexChat-umbrella.h"
+
+  export *
+  module * { export * }
+}

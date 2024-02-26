@@ -7,18 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B17C19393BF6C78618520DB3 /* Pods_NexChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80444479CB35103FBF3ADEED /* Pods_NexChat.framework */; };
+		D7363E742B5B14DE005816CD /* SmallAccountPreviewHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7363E732B5B14DE005816CD /* SmallAccountPreviewHome.swift */; };
+		D7363E762B5B1B5C005816CD /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7363E752B5B1B5C005816CD /* ChatView.swift */; };
 		D762D32A2B447FB70071A736 /* NexChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D762D3292B447FB70071A736 /* NexChatApp.swift */; };
-		D762D32C2B447FB70071A736 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D762D32B2B447FB70071A736 /* ContentView.swift */; };
+		D762D32C2B447FB70071A736 /* startup.swift in Sources */ = {isa = PBXBuildFile; fileRef = D762D32B2B447FB70071A736 /* startup.swift */; };
 		D762D32E2B447FB80071A736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D762D32D2B447FB80071A736 /* Assets.xcassets */; };
 		D762D3312B447FB80071A736 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D762D3302B447FB80071A736 /* Preview Assets.xcassets */; };
+		D762D3382B4552B10071A736 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D762D3372B4552B10071A736 /* BackgroundView.swift */; };
+		D762D33B2B4569200071A736 /* chooseview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D762D33A2B4569200071A736 /* chooseview.swift */; };
+		D762D33E2B457C1E0071A736 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D762D33D2B457C1E0071A736 /* GoogleService-Info.plist */; };
+		D77847E22B53503700A4BE40 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77847E12B53503700A4BE40 /* StoreKit.framework */; };
+		D77847E42B53518500A4BE40 /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77847E32B53518500A4BE40 /* StoreManager.swift */; };
+		D77847E72B54018500A4BE40 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = D77847E62B54018500A4BE40 /* RiveRuntime */; };
+		D77847ED2B54045300A4BE40 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = D77847EC2B54045300A4BE40 /* PopupView */; };
+		D79337FE2B45A82F00D76B0B /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79337FD2B45A82F00D76B0B /* home.swift */; };
+		D79338002B45A86300D76B0B /* createusernme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79337FF2B45A86300D76B0B /* createusernme.swift */; };
+		D793381E2B47234B00D76B0B /* ThreeDImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D793381D2B47234B00D76B0B /* ThreeDImageView.swift */; };
+		D79338202B47238200D76B0B /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = D793381F2B47238200D76B0B /* loading.gif */; };
+		D79338222B47256100D76B0B /* SelectShoeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79338212B47256100D76B0B /* SelectShoeView.swift */; };
+		D79338242B47501300D76B0B /* ShoePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79338232B47501300D76B0B /* ShoePreview.swift */; };
+		D79F4F642B4A04EA00857986 /* buycoins.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79F4F632B4A04EA00857986 /* buycoins.swift */; };
+		D79F4F682B4ADF3D00857986 /* BackgroundViewCoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79F4F672B4ADF3D00857986 /* BackgroundViewCoin.swift */; };
+		D7D0304C2B4C798000258AF3 /* EffectsLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = D7D0304B2B4C798000258AF3 /* EffectsLibrary */; };
+		D7D0304E2B4C799E00258AF3 /* PresentShoeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D0304D2B4C799E00258AF3 /* PresentShoeView.swift */; };
+		D7D030512B4C7B1C00258AF3 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = D7D030502B4C7B1C00258AF3 /* ConfettiSwiftUI */; };
+		D7D0305A2B4EB8AD00258AF3 /* Shimmer in Frameworks */ = {isa = PBXBuildFile; productRef = D7D030592B4EB8AD00258AF3 /* Shimmer */; };
+		D7D0305D2B4EBEF200258AF3 /* Pow in Frameworks */ = {isa = PBXBuildFile; productRef = D7D0305C2B4EBEF200258AF3 /* Pow */; };
+		D7D841322B59491100F201D1 /* rizz-sound-effect.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7D841312B59491100F201D1 /* rizz-sound-effect.wav */; };
+		D7FF38F42B5475F70031A945 /* PreviewUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FF38F32B5475F70031A945 /* PreviewUser.swift */; };
+		D7FF38F62B550CCD0031A945 /* SmallAccountPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FF38F52B550CCD0031A945 /* SmallAccountPreview.swift */; };
+		D7FF38F82B55CE890031A945 /* FriendRequestsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FF38F72B55CE890031A945 /* FriendRequestsView.swift */; };
+		D7FF38FA2B58313A0031A945 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FF38F92B58313A0031A945 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2282263C5B3A5C4CA4901E2A /* Pods-NexChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NexChat.debug.xcconfig"; path = "Target Support Files/Pods-NexChat/Pods-NexChat.debug.xcconfig"; sourceTree = "<group>"; };
+		80444479CB35103FBF3ADEED /* Pods_NexChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NexChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9839B8668C2EC9E66B4FEBFF /* Pods-NexChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NexChat.release.xcconfig"; path = "Target Support Files/Pods-NexChat/Pods-NexChat.release.xcconfig"; sourceTree = "<group>"; };
+		D7363E732B5B14DE005816CD /* SmallAccountPreviewHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallAccountPreviewHome.swift; sourceTree = "<group>"; };
+		D7363E752B5B1B5C005816CD /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		D762D3262B447FB70071A736 /* NexChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NexChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D762D3292B447FB70071A736 /* NexChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NexChatApp.swift; sourceTree = "<group>"; };
-		D762D32B2B447FB70071A736 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D762D32B2B447FB70071A736 /* startup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startup.swift; sourceTree = "<group>"; };
 		D762D32D2B447FB80071A736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D762D3302B447FB80071A736 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D762D3372B4552B10071A736 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		D762D33A2B4569200071A736 /* chooseview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chooseview.swift; sourceTree = "<group>"; };
+		D762D33C2B4571E40071A736 /* NexChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NexChat.entitlements; sourceTree = "<group>"; };
+		D762D33D2B457C1E0071A736 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D77847E12B53503700A4BE40 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		D77847E32B53518500A4BE40 /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
+		D79337FD2B45A82F00D76B0B /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+		D79337FF2B45A86300D76B0B /* createusernme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createusernme.swift; sourceTree = "<group>"; };
+		D793381D2B47234B00D76B0B /* ThreeDImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDImageView.swift; sourceTree = "<group>"; };
+		D793381F2B47238200D76B0B /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		D79338212B47256100D76B0B /* SelectShoeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectShoeView.swift; sourceTree = "<group>"; };
+		D79338232B47501300D76B0B /* ShoePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoePreview.swift; sourceTree = "<group>"; };
+		D79F4F632B4A04EA00857986 /* buycoins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buycoins.swift; sourceTree = "<group>"; };
+		D79F4F672B4ADF3D00857986 /* BackgroundViewCoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundViewCoin.swift; sourceTree = "<group>"; };
+		D79F4F692B4AF14700857986 /* coinbuy.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = coinbuy.mp4; sourceTree = "<group>"; };
+		D7D0304D2B4C799E00258AF3 /* PresentShoeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentShoeView.swift; sourceTree = "<group>"; };
+		D7D8412E2B5882A900F201D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D7D841312B59491100F201D1 /* rizz-sound-effect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "rizz-sound-effect.wav"; sourceTree = "<group>"; };
+		D7FF38F32B5475F70031A945 /* PreviewUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewUser.swift; sourceTree = "<group>"; };
+		D7FF38F52B550CCD0031A945 /* SmallAccountPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallAccountPreview.swift; sourceTree = "<group>"; };
+		D7FF38F72B55CE890031A945 /* FriendRequestsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendRequestsView.swift; sourceTree = "<group>"; };
+		D7FF38F92B58313A0031A945 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +81,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D77847ED2B54045300A4BE40 /* PopupView in Frameworks */,
+				D7D0305D2B4EBEF200258AF3 /* Pow in Frameworks */,
+				D7D0305A2B4EB8AD00258AF3 /* Shimmer in Frameworks */,
+				D77847E72B54018500A4BE40 /* RiveRuntime in Frameworks */,
+				D7D030512B4C7B1C00258AF3 /* ConfettiSwiftUI in Frameworks */,
+				D77847E22B53503700A4BE40 /* StoreKit.framework in Frameworks */,
+				B17C19393BF6C78618520DB3 /* Pods_NexChat.framework in Frameworks */,
+				D7D0304C2B4C798000258AF3 /* EffectsLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5314FD1CC66C7D9DE305355B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D77847E12B53503700A4BE40 /* StoreKit.framework */,
+				80444479CB35103FBF3ADEED /* Pods_NexChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0523FA26B7F3A2C8C546664 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2282263C5B3A5C4CA4901E2A /* Pods-NexChat.debug.xcconfig */,
+				9839B8668C2EC9E66B4FEBFF /* Pods-NexChat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D762D31D2B447FB70071A736 = {
 			isa = PBXGroup;
 			children = (
 				D762D3282B447FB70071A736 /* NexChat */,
 				D762D3272B447FB70071A736 /* Products */,
+				D0523FA26B7F3A2C8C546664 /* Pods */,
+				5314FD1CC66C7D9DE305355B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +134,31 @@
 		D762D3282B447FB70071A736 /* NexChat */ = {
 			isa = PBXGroup;
 			children = (
+				D7D8412E2B5882A900F201D1 /* Info.plist */,
+				D762D33C2B4571E40071A736 /* NexChat.entitlements */,
 				D762D3292B447FB70071A736 /* NexChatApp.swift */,
-				D762D32B2B447FB70071A736 /* ContentView.swift */,
+				D762D32B2B447FB70071A736 /* startup.swift */,
+				D762D33A2B4569200071A736 /* chooseview.swift */,
+				D79338212B47256100D76B0B /* SelectShoeView.swift */,
+				D7D0304D2B4C799E00258AF3 /* PresentShoeView.swift */,
+				D79F4F632B4A04EA00857986 /* buycoins.swift */,
+				D77847E32B53518500A4BE40 /* StoreManager.swift */,
+				D79338232B47501300D76B0B /* ShoePreview.swift */,
+				D79337FD2B45A82F00D76B0B /* home.swift */,
+				D7FF38F32B5475F70031A945 /* PreviewUser.swift */,
+				D7FF38F52B550CCD0031A945 /* SmallAccountPreview.swift */,
+				D7363E732B5B14DE005816CD /* SmallAccountPreviewHome.swift */,
+				D7363E752B5B1B5C005816CD /* ChatView.swift */,
+				D7FF38F92B58313A0031A945 /* AppDelegate.swift */,
+				D7FF38F72B55CE890031A945 /* FriendRequestsView.swift */,
+				D79337FF2B45A86300D76B0B /* createusernme.swift */,
+				D762D3372B4552B10071A736 /* BackgroundView.swift */,
+				D79F4F672B4ADF3D00857986 /* BackgroundViewCoin.swift */,
+				D793381D2B47234B00D76B0B /* ThreeDImageView.swift */,
+				D7D841312B59491100F201D1 /* rizz-sound-effect.wav */,
+				D793381F2B47238200D76B0B /* loading.gif */,
+				D762D33D2B457C1E0071A736 /* GoogleService-Info.plist */,
+				D79F4F692B4AF14700857986 /* coinbuy.mp4 */,
 				D762D32D2B447FB80071A736 /* Assets.xcassets */,
 				D762D32F2B447FB80071A736 /* Preview Content */,
 			);
@@ -74,15 +180,25 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D762D3342B447FB80071A736 /* Build configuration list for PBXNativeTarget "NexChat" */;
 			buildPhases = (
+				240412D21715C751826A9CBB /* [CP] Check Pods Manifest.lock */,
 				D762D3222B447FB70071A736 /* Sources */,
 				D762D3232B447FB70071A736 /* Frameworks */,
 				D762D3242B447FB70071A736 /* Resources */,
+				32D979E842A2F00E059EB055 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = NexChat;
+			packageProductDependencies = (
+				D7D0304B2B4C798000258AF3 /* EffectsLibrary */,
+				D7D030502B4C7B1C00258AF3 /* ConfettiSwiftUI */,
+				D7D030592B4EB8AD00258AF3 /* Shimmer */,
+				D7D0305C2B4EBEF200258AF3 /* Pow */,
+				D77847E62B54018500A4BE40 /* RiveRuntime */,
+				D77847EC2B54045300A4BE40 /* PopupView */,
+			);
 			productName = NexChat;
 			productReference = D762D3262B447FB70071A736 /* NexChat.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +227,14 @@
 				Base,
 			);
 			mainGroup = D762D31D2B447FB70071A736;
+			packageReferences = (
+				D7D0304A2B4C798000258AF3 /* XCRemoteSwiftPackageReference "effects-library" */,
+				D7D0304F2B4C7B1C00258AF3 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+				D7D030582B4EB8AD00258AF3 /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */,
+				D7D0305B2B4EBEF200258AF3 /* XCRemoteSwiftPackageReference "Pow" */,
+				D77847E52B54018500A4BE40 /* XCRemoteSwiftPackageReference "rive-ios" */,
+				D77847EB2B54045300A4BE40 /* XCRemoteSwiftPackageReference "PopupView" */,
+			);
 			productRefGroup = D762D3272B447FB70071A736 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,19 +250,81 @@
 			buildActionMask = 2147483647;
 			files = (
 				D762D3312B447FB80071A736 /* Preview Assets.xcassets in Resources */,
+				D79338202B47238200D76B0B /* loading.gif in Resources */,
+				D7D841322B59491100F201D1 /* rizz-sound-effect.wav in Resources */,
 				D762D32E2B447FB80071A736 /* Assets.xcassets in Resources */,
+				D762D33E2B457C1E0071A736 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		240412D21715C751826A9CBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NexChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32D979E842A2F00E059EB055 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NexChat/Pods-NexChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NexChat/Pods-NexChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NexChat/Pods-NexChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D762D3222B447FB70071A736 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D762D32C2B447FB70071A736 /* ContentView.swift in Sources */,
+				D7363E762B5B1B5C005816CD /* ChatView.swift in Sources */,
+				D79338242B47501300D76B0B /* ShoePreview.swift in Sources */,
+				D762D3382B4552B10071A736 /* BackgroundView.swift in Sources */,
+				D7FF38F82B55CE890031A945 /* FriendRequestsView.swift in Sources */,
+				D7FF38F62B550CCD0031A945 /* SmallAccountPreview.swift in Sources */,
+				D79338222B47256100D76B0B /* SelectShoeView.swift in Sources */,
+				D762D32C2B447FB70071A736 /* startup.swift in Sources */,
+				D79F4F682B4ADF3D00857986 /* BackgroundViewCoin.swift in Sources */,
 				D762D32A2B447FB70071A736 /* NexChatApp.swift in Sources */,
+				D79338002B45A86300D76B0B /* createusernme.swift in Sources */,
+				D7D0304E2B4C799E00258AF3 /* PresentShoeView.swift in Sources */,
+				D77847E42B53518500A4BE40 /* StoreManager.swift in Sources */,
+				D79337FE2B45A82F00D76B0B /* home.swift in Sources */,
+				D793381E2B47234B00D76B0B /* ThreeDImageView.swift in Sources */,
+				D762D33B2B4569200071A736 /* chooseview.swift in Sources */,
+				D79F4F642B4A04EA00857986 /* buycoins.swift in Sources */,
+				D7FF38FA2B58313A0031A945 /* AppDelegate.swift in Sources */,
+				D7FF38F42B5475F70031A945 /* PreviewUser.swift in Sources */,
+				D7363E742B5B14DE005816CD /* SmallAccountPreviewHome.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,7 +368,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -245,7 +431,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -266,59 +452,71 @@
 		};
 		D762D3352B447FB80071A736 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2282263C5B3A5C4CA4901E2A /* Pods-NexChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NexChat/NexChat.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"NexChat/Preview Content\"";
 				DEVELOPMENT_TEAM = C69H9YDVU6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NexChat/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nesofts.NexChat;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nesofts.NexChat.bynepomuk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D762D3362B447FB80071A736 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9839B8668C2EC9E66B4FEBFF /* Pods-NexChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NexChat/NexChat.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"NexChat/Preview Content\"";
 				DEVELOPMENT_TEAM = C69H9YDVU6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NexChat/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nesofts.NexChat;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nesofts.NexChat.bynepomuk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -344,6 +542,90 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D77847E52B54018500A4BE40 /* XCRemoteSwiftPackageReference "rive-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rive-app/rive-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.0;
+			};
+		};
+		D77847EB2B54045300A4BE40 /* XCRemoteSwiftPackageReference "PopupView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/PopupView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.3;
+			};
+		};
+		D7D0304A2B4C798000258AF3 /* XCRemoteSwiftPackageReference "effects-library" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GetStream/effects-library";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		D7D0304F2B4C7B1C00258AF3 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+		D7D030582B4EB8AD00258AF3 /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/markiv/SwiftUI-Shimmer.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.0;
+			};
+		};
+		D7D0305B2B4EBEF200258AF3 /* XCRemoteSwiftPackageReference "Pow" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/EmergeTools/Pow";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D77847E62B54018500A4BE40 /* RiveRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D77847E52B54018500A4BE40 /* XCRemoteSwiftPackageReference "rive-ios" */;
+			productName = RiveRuntime;
+		};
+		D77847EC2B54045300A4BE40 /* PopupView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D77847EB2B54045300A4BE40 /* XCRemoteSwiftPackageReference "PopupView" */;
+			productName = PopupView;
+		};
+		D7D0304B2B4C798000258AF3 /* EffectsLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7D0304A2B4C798000258AF3 /* XCRemoteSwiftPackageReference "effects-library" */;
+			productName = EffectsLibrary;
+		};
+		D7D030502B4C7B1C00258AF3 /* ConfettiSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7D0304F2B4C7B1C00258AF3 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
+			productName = ConfettiSwiftUI;
+		};
+		D7D030592B4EB8AD00258AF3 /* Shimmer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7D030582B4EB8AD00258AF3 /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */;
+			productName = Shimmer;
+		};
+		D7D0305C2B4EBEF200258AF3 /* Pow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7D0305B2B4EBEF200258AF3 /* XCRemoteSwiftPackageReference "Pow" */;
+			productName = Pow;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D762D31E2B447FB70071A736 /* Project object */;
 }

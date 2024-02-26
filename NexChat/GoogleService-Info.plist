@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyB5Yiavx08o3ZptiCvcsdHg4jkqptcjLg8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>273429016973</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.nesofts.NexChat.bynepomuk</string>
+	<key>PROJECT_ID</key>
+	<string>nexchat5665</string>
+	<key>STORAGE_BUCKET</key>
+	<string>nexchat5665.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:273429016973:ios:52fa0c866a4985f7e60dc4</string>
+</dict>
+</plist>

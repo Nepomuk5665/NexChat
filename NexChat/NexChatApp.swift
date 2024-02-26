@@ -6,12 +6,29 @@
 //
 
 import SwiftUI
+import Firebase
+
 
 @main
 struct NexChatApp: App {
+    @AppStorage("userID") var userID: String = ""
+    @AppStorage("username") var username: String = ""
+    
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if userID.isEmpty || username.isEmpty {
+                Startup()
+            } else {
+                HomeView(userIdentifier: userID)
+            }
         }
+        
     }
+    
+    
+
 }
+
+
